@@ -33,11 +33,11 @@ As a **Data Scientist**, I led the **design, modeling, and implementation** of t
 graph TD;
     A[Data Collection] --> B[Data Cleaning & Exploration];
     B --> C[Feature Engineering];
-    C --> D[Model Selection: SARIMA, Prophet];
+    C --> D[Model Selection: ARIMA, SARIMA, Prophet, LSTM, REGRESSION];
     D --> E[Model Training & Forecasting];
     E --> F[Ingredient Quantification];
     F --> G[Purchase Order Generation];
-    G --> H[Business Insights & Visualization];
+
 ```
 
 ---
@@ -90,57 +90,7 @@ graph TD;
 
 ---
 
-## 🚀 How to Run
 
-1. **Clone the repository**
 
-```bash
-git clone https://github.com/yourusername/dominos-predictive-purchase-order.git
-cd dominos-predictive-purchase-order
-```
 
-2. **Install dependencies**
-
-```bash
-pip install -r requirements.txt
-```
-
-3. **Run notebooks**
-   Open JupyterLab or VSCode and run the scripts in order:
-
-* `01_cleaning_exploration.ipynb`
-* `02_forecasting_models.ipynb`
-* `03_purchase_order.ipynb`
-
----
-
-## 📚 Learnings & Takeaways
-
-* Applied **SARIMA and Prophet** for real-world demand forecasting
-* Gained experience in **ingredient-level demand translation**
-* Strengthened understanding of **business-aligned modeling**
-* Built a modular, reusable project pipeline suitable for enterprise use
-
----
-
-## 👨‍💻 Author
-
-**\[Your Full Name]**
-Data Scientist | Machine Learning Enthusiast
-📧 [your.email@example.com](mailto:your.email@example.com)
-🔗 [LinkedIn](https://www.linkedin.com/in/yourname) | 💻 [GitHub](https://github.com/yourusername)
-
----
-
-## 📄 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
----
-
-## 🙌 Acknowledgements
-
-* Meta for Prophet
-* Statsmodels & Pmdarima for ARIMA/SARIMA
-* Dominos sales dataset (mock/demo-based)
 

@@ -76,13 +76,9 @@ graph TD;
 
 ## 📊 Key Results
 
-![Screenshot 2025-05-17 105356](https://github.com/user-attachments/assets/8d5fc6ff-bdb6-40aa-9ff5-7ac7ff643cf2)
+![Screenshot 2025-05-17 111132](https://github.com/user-attachments/assets/7cd3e0ed-6956-4750-a62b-88927ca7208d)
 
-
-* Achieved **<10% MAPE** on validation data
-* Forecasted weekly pizza sales with high accuracy
-* Mapped predicted sales to ingredient needs
-* Generated a **structured purchase order** with total quantities per ingredient
+Successfully built a predictive purchase order system for Dominos using historical sales and ingredient data. The model forecasts pizza sales for the upcoming week and calculates the exact quantity of each ingredient required, as shown in the predicted totals. This ensures efficient inventory management, reduces wastage, and streamlines the supply chain for optimal business operations.
 
 ---
 

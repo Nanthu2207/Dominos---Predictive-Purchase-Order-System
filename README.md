@@ -75,6 +75,7 @@ graph TD;
 ---
 
 ## 📊 Key Results
+![Screenshot 2025-05-11 193932](https://github.com/user-attachments/assets/71e849a6-9e91-48e1-a165-d92e182c8568)
 
 * Achieved **<10% MAPE** on validation data
 * Forecasted weekly pizza sales with high accuracy
